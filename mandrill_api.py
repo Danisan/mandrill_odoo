@@ -74,8 +74,6 @@ try:
             ERROR:
             No se pudo efectuar la consulta. Revise si los parametros de 
             ingreso a su sistema en \"config.ini\" son los correctos.
-            Serciorese de haber instalado el modulo \"invoice_printed\" 
-            en su sistema Odoo.
 
 
             """
