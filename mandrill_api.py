@@ -8,6 +8,14 @@ import configparser
 import mandrill
 from datetime import datetime
 
+print """
+    Odoo Mandrill Integration (webservice flavour).
+    Por Blanco Martin y Asociados
+    http://blancomartin.cl
+    
+
+"""
+
 config = configparser.ConfigParser()
 try:
     config.read('config.ini')
@@ -16,7 +24,6 @@ except:
     
     ERROR: No pudo leer archivo de configuracion. config.ini.
     Revise si se encuentra en el directorio  de instalacion de 
-    prnfiscal.
     
 
     """
